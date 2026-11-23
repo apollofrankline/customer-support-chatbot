@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowSupportChatbotMemoryEvents",
+      "Effect": "Allow",
+      "Action": [
+        "bedrock-agentcore:ListEvents",
+        "bedrock-agentcore:CreateEvent"
+      ],
+      "Resource": [
+        "arn:aws:bedrock-agentcore:us-east-1:163488725684:memory/support_chatbot-BzkUry95iD"
+      ]
+    }
+  ]
+}

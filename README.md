@@ -1,5 +1,4 @@
 # Purpose of This Repo
-
 This repo is the source of truth for the course project **"Customer Support Chatbot with Amazon Bedrock AgentCore"** (Prompting for Effective LLM Reasoning). It contains the starter files students use to build the project.
 
 > **Note:** Bedrock *Agents Classic* was closed to new customers on July 30, 2026. This project runs on its successor, the **Amazon Bedrock AgentCore managed harness**, with tools exposed through an **AgentCore Gateway**. Bedrock Evaluations, which the project uses for testing, is unaffected.

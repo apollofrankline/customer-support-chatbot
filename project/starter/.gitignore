@@ -9,3 +9,8 @@ output_eval_dataset.jsonl
 # Local Python virtual environments
 venv/
 **/venv/
+
+# Generated Python bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]

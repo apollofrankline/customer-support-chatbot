@@ -1,0 +1,45 @@
+CUSTOMER SUPPORT CHATBOT — BUG REPORT SUBMISSION
+
+Harness: support_chatbot
+Region: us-east-1
+
+Customer:
+The checkout page crashes when I click Place Order.
+
+Chatbot:
+Please tell me the exact steps you took before the checkout page crashed. Also, let me know which device and browser you were using.
+
+Customer:
+I add an item to my cart, proceed to checkout, enter my shipping details, and click Place Order.
+
+Chatbot:
+Please provide the device and browser you were using.
+
+Customer:
+I am using Chrome on Windows 11 on a computer.
+
+Gateway tool invocation:
+[tool call] bugreports___create_bug_report
+
+Tool input:
+{
+  "description": "The checkout page crashes when I click Place Order",
+  "stepsToReproduce": "I add an item to my cart, proceed to checkout, enter my shipping details, and click Place Order.",
+  "environment": "Chrome on Windows 11 on a computer."
+}
+
+Tool result:
+{
+  "status": "SUCCESS",
+  "ticketId": "16cd7d91",
+  "message": "Bug report ticket 16cd7d91 created successfully"
+}
+
+Chatbot final response:
+Thank you for providing the details. Your bug report has been submitted successfully. Your ticket identifier is 16cd7d91. We appreciate your help in making our shop better.
+
+Database verification:
+DynamoDB table bug-report-tool-stack-bug-reports contains ticket 16cd7d91 with status OPEN.
+
+Result: PASS
+Note: An earlier incomplete tool invocation returned HTTP 400 before the chatbot collected the missing fields. The subsequent complete invocation succeeded.

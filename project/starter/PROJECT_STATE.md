@@ -1,35 +1,18 @@
 Project: Customer Support Chatbot
-AWS Account: 163488725684
 AWS Region: us-east-1
 
-Existing Resources:
-- CloudFormation: bug-report-tool-stack (UPDATE_COMPLETE at last verification)
-- Lambda: bug-report-tool-stack-create-bug-report
-- DynamoDB: bug-report-tool-stack-bug-reports
+Existing resources:
+- CloudFormation stack: bug-report-tool-stack
+- DynamoDB table: bug-report-tool-stack-bug-reports
 - Gateway: bug-report-tool-stack-gateway-ttjlheyatu
 - Harness: support_chatbot-GtFDeIaJJp
-- Memory: support_chatbot-BzkUry95iD
-
-IAM:
-- AgentCoreGatewayInvoke configured
-- AgentCoreMemoryAccess configured
 
 Completed:
-- AWS authentication restored
-- Refund FAQ tested
-- Bug-report workflow tested
-- Gateway tool invocation successful
-- DynamoDB persistence verified
-- Ticket dc4803a7 stored successfully
-- Public GitHub backup pushed successfully
-- Git commit: 949d97e
-- Personal remote: https://github.com/apollofrankline/customer-support-chatbot.git
-- Branch: main
-- Local and personal remote branches synchronized
-
-Pending:
-- Final evaluation review
-- AWS resource cleanup assessment
+- Harness and Gateway integration.
+- Bug-report tool invocation and DynamoDB persistence.
+- System prompt improvement and evaluation.
+- Multi-line CLI input using /send.
+- Verified ticket 41b60132 contains complete description, environment, and reproduction steps.
 
 Immediate next step:
-Review final evaluation requirements and confirm submission status before considering AWS cleanup.
+- Review staged Git changes, commit the verified work, then complete final project acceptance checks and cleanup planning.

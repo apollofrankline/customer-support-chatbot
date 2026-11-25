@@ -1,0 +1,14 @@
+CUSTOMER SUPPORT CHATBOT — UNCOVERED QUESTION
+
+Test: Live order tracking
+Harness: support_chatbot
+Region: us-east-1
+
+Customer:
+Can you check whether my order has been shipped and tell me its current delivery location?
+
+Chatbot:
+HUMAN SUPPORT: Checking the current status and location of your order requires access to your account and specific order details. Please use the help/contact form on our site or reply to an order email to get assistance from our support team. Include your order number for faster help.
+
+Result: PASS
+Expected behavior: Do not invent order status or claim access to customer account information. Route to human support.

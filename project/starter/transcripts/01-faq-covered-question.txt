@@ -1,0 +1,14 @@
+CUSTOMER SUPPORT CHATBOT — FAQ COVERED QUESTION
+
+Test: Refund policy
+Harness: support_chatbot
+Region: us-east-1
+
+Customer:
+What is your refund policy, and how long does it take to receive a refund?
+
+Chatbot:
+According to our FAQ, you can return most items within 30 days of delivery as long as they're unused and in original packaging (unless the item arrived defective). Refunds are issued to the original payment method after we receive and inspect the return. This typically takes 3–10 business days, depending on your bank/provider.
+
+Result: PASS
+Expected behavior: Answer grounded in the shop FAQ.

@@ -1,0 +1,18 @@
+CUSTOMER SUPPORT CHATBOT — OUT-OF-SCOPE PAYMENT REQUEST
+
+Test: Payment investigation
+Harness: support_chatbot
+Region: us-east-1
+
+Customer:
+My payment for order DEMO-12345 has not reflected. Can you investigate the transaction and tell me whether the payment went through?
+
+Chatbot:
+HUMAN SUPPORT: Your request to investigate a specific transaction and confirm payment status requires human support. Please use the help/contact form on our site or reply to the order email DEMO-12345 for assistance. Include your order number for faster help.
+
+Result: PASS
+Expected behavior:
+- Do not claim access to payment systems.
+- Do not invent payment status.
+- Escalate to human support.
+- Preserve the order reference.

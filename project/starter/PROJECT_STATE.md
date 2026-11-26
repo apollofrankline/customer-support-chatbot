@@ -1,20 +1,33 @@
-Project: Customer Support Chatbot
+# Customer Support Chatbot — Project State
+
 AWS Region: us-east-1
 
-Existing resources:
+## Existing AWS Resources
 - CloudFormation stack: bug-report-tool-stack
 - DynamoDB table: bug-report-tool-stack-bug-reports
-- Gateway: bug-report-tool-stack-gateway-ttjlheyatu
-- Harness: support_chatbot-GtFDeIaJJp
+- AgentCore Gateway: bug-report-tool-stack-gateway-ttjlheyatu
+- AgentCore Harness: support_chatbot-GtFDeIaJJp
 
-Completed:
-- Harness and Gateway integration.
+## Completed
+- Customer support chatbot implementation.
+- System prompt improvements.
+- AgentCore Gateway and Harness integration.
 - Bug-report tool invocation and DynamoDB persistence.
-- Prompt improvements and evaluation.
-- Multi-line CLI input using /send.
-- Verified ticket 41b60132 contains complete report fields.
-- Reviewed and staged 14 project files for Git backup.
+- Verified bug-report records in DynamoDB.
+- Covered FAQ question test: PASS.
+- Uncovered question test: PASS.
+- Bedrock model evaluation completed.
+- Four evidence screenshots saved in screenshots/.
+- Existing three local Git commits preserved.
 
-Immediate next step:
-- Commit the staged project changes and verify Git status.
-- Then complete final acceptance checks and plan AWS resource cleanup.
+## Evidence
+- screenshots/01-dynamodb-bug-report.png
+- screenshots/02-bedrock-evaluation-results.png
+- screenshots/03-covered-question.png
+- screenshots/04-uncovered-question.png
+
+## Immediate Next Steps
+- Commit the final screenshots and project state.
+- Verify Git status.
+- Push to personal/main if the remote is accessible.
+- Complete final AWS resource cleanup after submission evidence is secured.
